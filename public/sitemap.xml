@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/texas.html</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/texas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/california.html</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/california.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/florida.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/new-york.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ais-pre-jqqbeaszfzu42ek3b4bo4q-142720807478.asia-southeast1.run.app/blog.html</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
