@@ -58,7 +58,7 @@ export const AboutPage = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-20 text-center">
           {[
             { label: "Breeds Covered", val: "400+", icon: <Zap className="w-4 h-4" /> },
-            { label: "US States", val: "All 50", icon: <Database className="w-4 h-4" /> },
+            { label: "All 50 States", val: "50", icon: <Database className="w-4 h-4" /> },
             { label: "Market Rates", val: "2026", icon: <ShieldCheck className="w-4 h-4" /> },
             { label: "Zero Email Required", val: "Zero", icon: <Zap className="w-4 h-4" /> },
           ].map((stat, i) => (
