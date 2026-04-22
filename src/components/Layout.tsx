@@ -13,9 +13,7 @@ export const Navbar = () => (
         <li><Link to="/" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Estimator</Link></li>
         <li><Link to="/blog.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Blog</Link></li>
         <li><Link to="/texas.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Texas</Link></li>
-        <li><Link to="/california.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">California</Link></li>
-        <li><Link to="/florida.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Florida</Link></li>
-        <li><Link to="/new-york.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">New York</Link></li>
+        <li><Link to="/about" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">About</Link></li>
         <li className="ml-2">
           <Link to="/#estimator" className="bg-primary text-white text-[13px] font-bold px-4 py-2 rounded-lg hover:bg-primary-light transition-colors shadow-sm">
             Free Estimate →

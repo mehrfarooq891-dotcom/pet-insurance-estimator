@@ -69,93 +69,127 @@ export const Sidebar = () => {
   );
 };
 
-export const MainContent = () => {
-  const [openFaq, setOpenFaq] = useState<number>(0);
+export const ProblemSection = () => (
+  <section className="bg-surface rounded-2xl border border-border shadow-card p-10 md:p-14">
+    <h3 className="text-3xl font-serif text-text-main mb-6 font-bold tracking-tight">The Bill Nobody Plans For</h3>
+    <p className="text-text-muted leading-relaxed text-base max-w-3xl mb-10">
+      1 out of 3 pets will need emergency care this year. Modern pet insurance turns a $6,000 orthopedic surprise into a manageable $45 monthly investment.
+    </p>
 
+    <div className="overflow-hidden rounded-xl border border-border shadow-sm">
+      <table className="w-full text-left text-sm border-collapse">
+        <thead>
+          <tr className="bg-primary-pale/50 text-primary">
+            <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">Situation</th>
+            <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">Out of Pocket</th>
+            <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">With Insurance</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-border">
+          {[
+            { s: 'Emergency visit', w: '$1,200–$2,200', i: '$120–$350' },
+            { s: 'ACL Surgery', w: '$3,800–$7,500', i: '$380–$900' },
+            { s: 'Cancer treatment', w: '$9,000–$20,000', i: '$900–$2,500' },
+            { s: 'Foreign Ingestion', w: '$1,500–$4,500', i: '$150–$650' }
+          ].map((row, idx) => (
+            <tr key={idx} className="hover:bg-warm/30 transition-colors group">
+              <td className="p-4 font-serif font-bold text-text-main group-hover:text-primary transition-colors">{row.s}</td>
+              <td className="p-4 text-red-600/80 font-medium">{row.w}</td>
+              <td className="p-4 text-primary font-bold bg-primary-pale/20">{row.i}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+);
+
+export const TestimonialsSection = () => (
+  <section className="bg-primary-dark rounded-2xl p-10 md:p-14 text-white overflow-hidden relative">
+    <div className="absolute top-0 right-0 w-64 h-64 bg-primary-light/10 rounded-full blur-[80px] -mr-32 -mt-32" />
+    <h3 className="text-3xl font-serif text-white mb-10 font-bold tracking-tight relative z-10 text-center">Pet Parent Perspectives</h3>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+      {[
+        { a: 'Sarah M.', l: 'Austin, TX', p: 'Insurance was the only reason we could say yes to chemo. Lexi is still with us today.', b: 'Golden Retriever' },
+        { a: 'James T.', l: 'Portland, OR', p: 'Max ate a tennis ball. $3,500 surgery. Best $42/month I\'ve ever spent.', b: 'Labrador' },
+        { a: 'Priya K.', l: 'San Diego, CA', p: 'Finally a tool that explains why Frenchie premiums are high.', b: 'French Bulldog' }
+      ].map((t, idx) => (
+        <div key={idx} className="bg-white/5 backdrop-blur-sm rounded-xl p-7 border border-white/10 flex flex-col justify-between hover:bg-white/10 transition-colors">
+          <p className="text-sm text-white/80 italic mb-8 leading-relaxed">"{t.p}"</p>
+          <div>
+            <div className="text-[13px] font-bold text-white mb-0.5">{t.a}</div>
+            <div className="text-[10px] text-white/50 uppercase tracking-widest font-bold font-serif italic">{t.l} · {t.b} owner</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+);
+
+export const ProviderSection = () => (
+  <section className="bg-surface rounded-2xl border border-border p-10 md:p-14 shadow-card">
+    <h3 className="text-3xl font-serif text-text-main mb-8 font-bold tracking-tight">Top Providers 2026</h3>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        { name: 'Lemonade Pet', rating: '4.8', icon: '🍋', link: 'https://lemonade.com/pet', tag: 'Best Tech' },
+        { name: 'Spot Pet Insurance', rating: '4.6', icon: '🐾', link: 'https://spotpet.com', tag: 'Fast ROI' },
+        { name: 'ASPCA Pet Health', rating: '4.5', icon: '🏥', link: 'https://aspcapetinsurance.com', tag: 'High Trust' },
+      ].map((provider) => (
+        <div key={provider.name} className="flex flex-col gap-6 p-6 bg-warm/30 rounded-2xl border border-border/50 hover:border-primary/20 transition-all group">
+          <div className="flex items-center justify-between">
+            <div className="w-14 h-14 bg-white rounded-xl flex items-center justify-center text-3xl shadow-sm border border-border/50 group-hover:scale-110 transition-transform">
+              {provider.icon}
+            </div>
+            <div className="text-right">
+              <div className="text-[10px] text-accent flex items-center justify-end gap-1 font-bold">
+                <Star className="w-3 h-3 fill-current" /> {provider.rating}
+              </div>
+              <span className="text-[10px] text-text-muted font-bold bg-white px-2 py-1 rounded border border-border/50 uppercase tracking-wider">{provider.tag}</span>
+            </div>
+          </div>
+          <div>
+            <div className="text-xl font-bold text-text-main mb-4">{provider.name}</div>
+            <a href={provider.link} target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-primary text-white py-3 rounded-lg font-bold text-sm hover:bg-primary-dark transition-all">
+              Check Prices
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+);
+
+export const FaqSection = () => {
+  const [openFaq, setOpenFaq] = useState<number>(0);
   const faqs = [
-    { q: "How much does pet insurance cost per month in the USA?", a: "Most dog owners pay between $30 and $70 per month, while cat insurance averages $15 to $40 per month. High-risk breeds in states like California or New York sit at the top of that range." },
-    { q: "Does my pet's age affect the insurance premium?", a: "Yes, significantly. After age 7, premiums rise sharply — sometimes doubling. Vets recommend insuring your pet early, ideally before their first birthday." },
-    { q: "Which dog breeds cost the most to insure?", a: "Breeds prone to genetic issues like French Bulldogs, English Bulldogs, and Great Danes are among the most expensive. Mixed breeds are often the most affordable." },
-    { q: "Is pet insurance worth it if my pet is healthy?", a: "Insurance is most valuable when you don't need it yet. Pre-existing conditions aren't covered, so locking in a plan while healthy ensures protection later." }
+    { q: "How much does pet insurance cost per month?", a: "Most dog owners pay between $30 and $70 per month, while cat insurance averages $15 to $40 per month. High-risk breeds in states like California or New York sit at the top of that range." },
+    { q: "Does my pet's age affect premium?", a: "Yes, significantly. After age 7, premiums rise sharply — sometimes doubling. Vets recommend insuring your pet early, ideally before their first birthday." },
+    { q: "Which dog breeds cost the most?", a: "Breeds prone to genetic issues like French Bulldogs, English Bulldogs, and Great Danes are among the most expensive. Mixed breeds are often the most affordable." },
+    { q: "Is pet insurance worth it if pet is healthy?", a: "Insurance is most valuable when you don't need it yet. Pre-existing conditions aren't covered, so locking in a plan while healthy ensures protection later." }
   ];
 
   return (
-    <div className="space-y-12">
-      <section className="bg-surface rounded-2xl border border-border shadow-card p-10 md:p-14">
-        <h3 className="text-3xl font-serif text-text-main mb-6 font-bold tracking-tight">The Bill Nobody Plans For</h3>
-        <p className="text-text-muted leading-relaxed text-base max-w-3xl mb-10">
-          One out of three pets will need emergency care this year. Modern pet insurance turns a $6,000 orthopedic surprise into a manageable $45 monthly investment.
-        </p>
-
-        <div className="overflow-hidden rounded-xl border border-border shadow-sm">
-          <table className="w-full text-left text-sm border-collapse">
-            <thead>
-              <tr className="bg-primary-pale/50 text-primary">
-                <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">Medical Situation</th>
-                <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">Out of Pocket</th>
-                <th className="p-4 uppercase text-[10px] font-extrabold tracking-[0.15em]">With Insurance</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-border">
-              {[
-                { s: 'Emergency visit (illness)', w: '$1,200–$2,200', i: '$120–$350' },
-                { s: 'ACL Repair Surgery', w: '$3,800–$7,500', i: '$380–$900' },
-                { s: 'Cancer (full treatment)', w: '$9,000–$20,000', i: '$900–$2,500' },
-                { s: 'Foreign Ingestion', w: '$1,500–$4,500', i: '$150–$650' }
-              ].map((row, idx) => (
-                <tr key={idx} className="hover:bg-warm/30 transition-colors group">
-                  <td className="p-4 font-serif font-bold text-text-main group-hover:text-primary transition-colors">{row.s}</td>
-                  <td className="p-4 text-red-600/80 font-medium">{row.w}</td>
-                  <td className="p-4 text-primary font-bold bg-primary-pale/20">{row.i}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="bg-primary-dark rounded-2xl p-10 md:p-14 text-white overflow-hidden relative">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-primary-light/10 rounded-full blur-[80px] -mr-32 -mt-32" />
-        <h3 className="text-3xl font-serif text-white mb-10 font-bold tracking-tight relative z-10 text-center">Pet Parent Perspectives</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
-          {[
-            { a: 'Sarah M.', l: 'Austin, TX', p: 'Insurance was the only reason we could say yes to chemo. Lexi is still with us today.', b: 'Golden Retriever' },
-            { a: 'James T.', l: 'Portland, OR', p: 'Max ate a tennis ball. $3,500 surgery. Best $42/month I\'ve ever spent.', b: 'Labrador' },
-            { a: 'Priya K.', l: 'San Diego, CA', p: 'Finally a tool that explains why Frenchie premiums are high. Real clarity.', b: 'French Bulldog' }
-          ].map((t, idx) => (
-            <div key={idx} className="bg-white/5 backdrop-blur-sm rounded-xl p-7 border border-white/10 flex flex-col justify-between hover:bg-white/10 transition-colors">
-              <p className="text-sm text-white/80 italic mb-8 leading-relaxed">"{t.p}"</p>
-              <div>
-                <div className="text-[13px] font-bold text-white mb-0.5">{t.a}</div>
-                <div className="text-[10px] text-white/50 uppercase tracking-widest font-bold font-serif italic">{t.l} · {t.b} owner</div>
+    <section className="bg-surface rounded-2xl border border-border shadow-card p-10 md:p-14">
+      <h3 className="text-3xl font-serif text-text-main mb-8 font-bold tracking-tight">Guiding Answers</h3>
+      <div className="space-y-2">
+        {faqs.map((faq, idx) => (
+          <div key={idx} className={`border border-border rounded-xl transition-all overflow-hidden ${openFaq === idx ? 'ring-2 ring-primary/5 border-primary/20 bg-primary-pale/10' : 'hover:border-text-muted/30'}`}>
+            <button 
+              onClick={() => setOpenFaq(openFaq === idx ? -1 : idx)}
+              className="w-full px-6 py-5 flex items-center justify-between text-left group"
+            >
+              <span className={`text-[15px] font-bold tracking-tight transition-colors ${openFaq === idx ? 'text-primary' : 'text-text-main'}`}>{faq.q}</span>
+              <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-all ${openFaq === idx ? 'rotate-180 text-primary' : 'text-text-muted group-hover:text-text-main'}`} />
+            </button>
+            <div className={`transition-all duration-300 ${openFaq === idx ? 'max-h-96 opacity-100 py-6' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+              <div className="px-6 border-t border-primary/5 pt-5 text-sm text-text-muted leading-relaxed">
+                {faq.a}
               </div>
             </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-surface rounded-2xl border border-border shadow-card p-10 md:p-14">
-        <h3 className="text-3xl font-serif text-text-main mb-8 font-bold tracking-tight">Guiding Answers</h3>
-        <div className="space-y-2">
-          {faqs.map((faq, idx) => (
-            <div key={idx} className={`border border-border rounded-xl transition-all overflow-hidden ${openFaq === idx ? 'ring-2 ring-primary/5 border-primary/20 bg-primary-pale/10' : 'hover:border-text-muted/30'}`}>
-              <button 
-                onClick={() => setOpenFaq(openFaq === idx ? -1 : idx)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left group"
-              >
-                <span className={`text-[15px] font-bold tracking-tight transition-colors ${openFaq === idx ? 'text-primary' : 'text-text-main'}`}>{faq.q}</span>
-                <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-all ${openFaq === idx ? 'rotate-180 text-primary' : 'text-text-muted group-hover:text-text-main'}`} />
-              </button>
-              <div className={`transition-all duration-300 ${openFaq === idx ? 'max-h-96 opacity-100 py-6' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-                <div className="px-6 border-t border-primary/5 pt-5 text-sm text-text-muted leading-relaxed">
-                  {faq.a}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

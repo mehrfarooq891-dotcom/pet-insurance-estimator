@@ -1,32 +1,58 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
 import { Estimator } from '../components/Estimator';
-import { Sidebar, MainContent, PetBanner } from '../components/MainContent';
+import { ProblemSection, TestimonialsSection, ProviderSection, FaqSection, PetBanner } from '../components/MainContent';
+import { ShieldCheck, Database, Zap } from 'lucide-react';
 
 export const HomePage = () => {
   return (
     <>
       <Hero />
       
-      <div id="estimator" className="max-w-7xl mx-auto px-6 py-12 lg:py-24 grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-12 items-start">
-        <div className="space-y-16">
-          <Estimator />
-          <MainContent />
-        </div>
-        <div className="sticky top-[90px] hidden lg:block">
-          <Sidebar />
+      {/* STATS BAR */}
+      <div className="bg-primary py-8 border-y border-white/5 shadow-lg relative z-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 items-center">
+            {[
+              { label: "Breeds Covered", val: "400+", icon: <Zap className="w-4 h-4 text-accent" /> },
+              { label: "All 50 States", val: "50", icon: <Database className="w-4 h-4 text-accent" /> },
+              { label: "Zero Email Required", val: "Zero", icon: <ShieldCheck className="w-4 h-4 text-accent" /> },
+              { label: "2026 Rates Updated", val: "2026", icon: <Zap className="w-4 h-4 text-accent" /> },
+            ].map((stat, i) => (
+              <div key={i} className="flex items-center justify-center gap-4 text-white group">
+                <div className="p-3 bg-white/10 rounded-xl group-hover:scale-110 transition-transform">
+                  {stat.icon}
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xl font-serif font-bold leading-none">{stat.val}</span>
+                  <span className="text-[10px] font-bold text-white/50 uppercase tracking-widest mt-1">{stat.label}</span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* Mobile Sidebar (appears below main content on small screens) */}
-      <div className="lg:hidden max-w-7xl mx-auto px-6 pb-16">
-        <Sidebar />
-      </div>
+      <div className="max-w-7xl mx-auto px-6 py-20 space-y-24">
+        {/* THE TOOL SECTION */}
+        <section id="estimator" className="scroll-mt-24">
+           <Estimator />
+        </section>
 
-      <PetBanner />
+        {/* PROBLEM SECTION */}
+        <ProblemSection />
 
-      <div className="max-w-7xl mx-auto px-6 py-24">
-        <div className="bg-white rounded-3xl border-2 border-primary/5 shadow-hero p-10 md:p-16 relative overflow-hidden">
+        {/* TESTIMONIALS */}
+        <TestimonialsSection />
+
+        {/* TOP PROVIDERS 2026 */}
+        <ProviderSection />
+
+        {/* FAQ */}
+        <FaqSection />
+
+        {/* CALCULATION LOGIC EXPLAINER (Kept for depth/trust) */}
+        <div className="bg-warm rounded-3xl border border-border/50 p-10 md:p-16 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary-pale/50 rounded-full blur-3xl -mr-32 -mt-32" />
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl font-serif text-text-main mb-8 tracking-tight">How We Calculate Your Estimate</h2>
@@ -52,6 +78,9 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
+
+      {/* CTA BANNER */}
+      <PetBanner />
     </>
   );
 };

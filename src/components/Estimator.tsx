@@ -146,8 +146,8 @@ export const Estimator = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-1">
               {[
                 { id: 'accident', icon: '🚨', label: 'Accident Only', desc: 'Injuries only' },
-                { id: 'standard', icon: '🏥', label: 'Standard', desc: 'Most popular' },
-                { id: 'wellness', icon: '💊', label: 'Premium', desc: 'Full wellness' }
+                { id: 'standard', icon: '🏥', label: 'Standard (Most Popular)', desc: 'Full coverage' },
+                { id: 'wellness', icon: '💊', label: 'Premium (Full Wellness)', desc: 'Routine care' }
               ].map((opt) => (
                 <div 
                   key={opt.id}
@@ -169,7 +169,7 @@ export const Estimator = () => {
 
         <button 
           onClick={handleCalculate}
-          className="w-full mt-8 p-4 bg-gradient-to-r from-primary-dark to-primary text-white rounded-lg font-bold text-base hover:shadow-lg hover:shadow-primary/20 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+          className="w-full mt-8 p-4 bg-primary text-white rounded-lg font-bold text-base hover:bg-primary-dark transition-all transform hover:-translate-y-0.5 active:translate-y-0 shadow-lg shadow-primary/10"
         >
           🔍 Get My Instant Estimate — Free
         </button>
