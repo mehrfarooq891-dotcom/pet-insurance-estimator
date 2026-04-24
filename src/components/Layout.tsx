@@ -1,28 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PawPrint } from 'lucide-react';
+import { PawPrint, Menu, X } from 'lucide-react';
 
-export const Navbar = () => (
-  <nav className="bg-surface/95 backdrop-blur-md border-b border-border px-6 sticky top-0 z-50 h-[66px] flex items-center">
-    <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
-      <Link to="/" className="flex items-center gap-2 text-primary no-underline group">
-        <PawPrint className="w-6 h-6 transform group-hover:scale-110 transition-transform" />
-        <span className="font-serif text-xl font-bold text-primary">PetSecure AI</span>
-      </Link>
-      <ul className="hidden lg:flex gap-1.5 list-none items-center">
-        <li><Link to="/" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Estimator</Link></li>
-        <li><Link to="/blog.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Blog</Link></li>
-        <li><Link to="/texas.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Texas</Link></li>
-        <li><Link to="/about" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">About</Link></li>
-        <li className="ml-2">
-          <Link to="/#estimator" className="bg-primary text-white text-[13px] font-bold px-4 py-2 rounded-lg hover:bg-primary-light transition-colors shadow-sm">
-            Free Estimate →
-          </Link>
-        </li>
-      </ul>
-    </div>
-  </nav>
-);
+export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <nav className="bg-surface/95 backdrop-blur-md border-b border-border px-6 sticky top-0 z-50 h-[66px] flex items-center">
+      <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-2 text-primary no-underline group" onClick={() => setIsMenuOpen(false)}>
+          <PawPrint className="w-6 h-6 transform group-hover:scale-110 transition-transform" />
+          <span className="font-serif text-xl font-bold text-primary">PetSecure AI</span>
+        </Link>
+        
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex gap-1.5 list-none items-center">
+          <li><Link to="/" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Home</Link></li>
+          <li><Link to="/about" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">About</Link></li>
+          <li><Link to="/contact" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Contact</Link></li>
+        </ul>
+
+        {/* Mobile Toggle */}
+        <button 
+          className="md:hidden text-primary p-2"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="md:hidden absolute top-[66px] left-0 w-full bg-surface border-b border-border p-6 animate-in fade-in slide-in-from-top-4">
+          <ul className="flex flex-col gap-4 list-none p-0 m-0">
+            <li><Link to="/" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+            <li><Link to="/about" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>About</Link></li>
+            <li><Link to="/contact" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
+          </ul>
+        </div>
+      )}
+    </nav>
+  );
+};
 
 export const Footer = () => (
   <footer className="bg-dark-surface text-white/60 border-t border-white/5 py-12 px-6">

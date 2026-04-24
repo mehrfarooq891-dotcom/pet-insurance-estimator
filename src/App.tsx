@@ -15,6 +15,7 @@ import { BlogLemonadeVsSpot } from './pages/blog/LemonadeVsSpot';
 import { BlogCatInsurance } from './pages/blog/CatInsurance';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
+import { ContactPage } from './pages/ContactPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/blog-cat-insurance" element={<BlogCatInsurance />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
           </Routes>
         </main>
