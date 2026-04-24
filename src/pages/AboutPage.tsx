@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import { Shield, Zap, UserPlus, MapPin, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Shield, Zap, UserPlus, MapPin, CheckCircle2 } from 'lucide-react';
 
 export const AboutPage = () => {
   useEffect(() => {
-    document.title = "About PetSecure AI - Free Pet Insurance Cost Estimator USA";
+    document.title = "About PetSecure Insurance - Free Pet Insurance Cost Estimator USA";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', "Learn about PetSecure AI, the free online pet insurance cost estimator for the USA. Instant results with no registration required.");
+      metaDesc.setAttribute('content', "Learn about PetSecure Insurance, the free online pet insurance cost estimator for the USA. Instant results with no registration required.");
     }
   }, []);
 
@@ -16,7 +16,7 @@ export const AboutPage = () => {
       <section className="bg-primary py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6">
-            About PetSecure AI
+            About PetSecure Insurance
           </h1>
           <p className="text-xl md:text-2xl text-white/80 font-medium font-serif italic">
             "Transparency is the heart of healthy pet parenting."
@@ -37,6 +37,7 @@ export const AboutPage = () => {
             <div className="mt-6 text-center md:text-left">
               <h3 className="font-serif font-bold text-text-main text-2xl">Dr. Amanda Collins</h3>
               <p className="text-xs text-primary font-bold uppercase tracking-[0.2em] mt-1">Founder & Lead Actuary</p>
+              <a href="mailto:contact@petsecureinsurance.com" className="text-xs text-text-muted hover:text-primary transition-colors mt-2 block font-medium">contact@petsecureinsurance.com</a>
             </div>
           </div>
 
@@ -47,7 +48,7 @@ export const AboutPage = () => {
                 After 12 years in veterinary practice management, I saw too many families forced to make heartbreaking medical decisions based solely on surprise costs. Pet insurance exists to prevent this, but the industry is often opaque and intimidating.
               </p>
               <p className="text-lg text-text-muted leading-relaxed">
-                I built PetSecure AI to be the "missing first step." We provide honest, data-driven estimates before you ever have to hand over your email address or deal with high-pressure sales calls.
+                I built PetSecure Insurance to be the "missing first step." We provide honest, data-driven estimates before you ever have to hand over your email address or deal with high-pressure sales calls.
               </p>
             </div>
             
@@ -66,7 +67,7 @@ export const AboutPage = () => {
         <section className="max-w-4xl mx-auto text-center space-y-6 pt-12 border-t border-border/50">
           <h2 className="text-3xl font-serif font-bold text-text-main">Our Philosophy</h2>
           <p className="text-lg text-text-muted leading-relaxed">
-            Most financial tools are locked behind paywalls or require creating an account just to see a simple number. We believe useful tools should be free and instant for everyone. PetSecure AI uses localized data from all 50 states to give you a realistic preview of your pet's insurance landscape.
+            Most financial tools are locked behind paywalls or require creating an account just to see a simple number. We believe useful tools should be free and instant for everyone. PetSecure Insurance uses localized data from all 50 states to give you a realistic preview of your pet's insurance landscape.
           </p>
         </section>
 
@@ -104,15 +105,11 @@ export const AboutPage = () => {
         </section>
 
         {/* Section 5 — Disclaimer Box */}
-        <div className="bg-warm rounded-3xl p-8 md:p-12 border border-border/50 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-text-muted border border-border shadow-sm">
-              <AlertCircle className="w-6 h-6" />
-            </div>
-          </div>
-          <h2 className="text-xl font-serif font-bold text-text-main mb-4">Official Disclaimer</h2>
+        <div className="bg-[#f5f5f5] rounded-2xl p-8 md:p-12 border border-[#ddd] text-center">
+          <span className="text-[10px] text-text-muted font-bold uppercase tracking-[0.2em] block mb-2">Disclaimer</span>
+          <h2 className="text-lg font-serif font-bold text-text-main mb-4 uppercase tracking-wide">Official Disclaimer</h2>
           <p className="text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
-            PetSecure AI is an independent planning tool. We are not an insurance provider or broker. All estimates are for informational and planning purposes only; final policy premiums are determined by the individual carrier based on their formal underwriting process.
+            PetSecure Insurance is an independent planning tool. We are not an insurance provider or broker. All estimates are for informational and planning purposes only; final policy premiums are determined by the individual carrier based on their formal underwriting process.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 text-primary no-underline group" onClick={() => setIsMenuOpen(false)}>
           <PawPrint className="w-6 h-6 transform group-hover:scale-110 transition-transform" />
-          <span className="font-serif text-xl font-bold text-primary">PetSecure AI</span>
+          <span className="font-serif text-xl font-bold text-primary">PetSecure Insurance</span>
         </Link>
         
         {/* Desktop Menu */}
@@ -50,11 +50,15 @@ export const Footer = () => (
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-white font-serif text-lg font-bold">
             <PawPrint className="w-5 h-5" />
-            <span>PetSecure AI</span>
+            <span>PetSecure Insurance</span>
           </div>
-          <p className="text-sm leading-relaxed max-w-xs">
+          <p className="text-sm leading-relaxed max-w-xs mb-4">
             A free tool helping US pet owners understand insurance costs before they commit. No email, no nonsense.
           </p>
+          <div className="text-xs space-y-1.5 opacity-80">
+            <p>3900 N Capital of Texas Hwy, Austin, TX 78746</p>
+            <p>(512) 555-0147</p>
+          </div>
         </div>
         <div>
           <h4 className="text-white text-[11px] font-bold uppercase tracking-widest mb-6">State Guides</h4>
@@ -76,7 +80,7 @@ export const Footer = () => (
         </div>
       </div>
       <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-        <span className="text-xs uppercase tracking-widest font-bold">© 2026 PetSecure AI · US Pet Owners Guide</span>
+        <span className="text-xs uppercase tracking-widest font-bold">© 2026 PetSecure Insurance · US Pet Owners Guide</span>
         <p className="max-w-lg text-[10px] italic text-center md:text-right text-white/30 leading-normal">
           Disclaimer: Estimates are for informational purposes only. Final premiums vary by insurer. 
           We may earn a commission from linked providers. Not insurance advice.

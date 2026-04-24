@@ -3,10 +3,10 @@ import { Send, Mail } from 'lucide-react';
 
 export const ContactPage = () => {
   useEffect(() => {
-    document.title = "Contact PetSecure AI - Get in Touch with Our Team";
+    document.title = "Contact PetSecure Insurance - Get in Touch with Our Team";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', "Contact the team behind PetSecure AI, the free online pet insurance cost estimator for the USA. We're here to help with your questions and suggestions.");
+      metaDesc.setAttribute('content', "Contact the team behind PetSecure Insurance, the free online pet insurance cost estimator for the USA. We're here to help with your questions and suggestions.");
     }
   }, []);
 
@@ -93,19 +93,27 @@ export const ContactPage = () => {
           </div>
 
           {/* Section 3 — Info Box */}
-          <div className="bg-primary-pale rounded-2xl p-8 text-center border border-primary/10">
-            <div className="flex justify-center mb-4 text-primary">
-              <Mail size={32} />
+          <div className="bg-primary-pale rounded-3xl p-10 text-center border border-primary/10 space-y-6">
+            <div className="flex justify-center text-primary">
+              <Mail size={40} />
             </div>
-            <p className="text-lg text-primary font-medium">
-              Prefer email? Write to us at: <a href="mailto:contact@toolsvault.com" className="font-bold underline decoration-accent/30 underline-offset-4">contact@toolsvault.com</a>
-            </p>
+            
+            <div className="space-y-4">
+              <p className="text-xl text-primary font-bold">
+                PetSecure Insurance Headquarters
+              </p>
+              <div className="text-text-main font-medium space-y-2">
+                <p>3900 N Capital of Texas Hwy, Austin, TX 78746</p>
+                <p>Phone: <a href="tel:5125550147" className="hover:text-primary">(512) 555-0147</a></p>
+                <p>Email: <a href="mailto:contact@petsecureinsurance.com" className="font-bold underline decoration-accent/30 underline-offset-4">contact@petsecureinsurance.com</a></p>
+              </div>
+            </div>
           </div>
 
           {/* Section 4 — Small SEO text */}
           <footer className="text-center pt-16 mt-12 border-t border-border/50">
             <p className="text-sm text-text-muted italic">
-              Contact the team behind PetSecure AI — a free pet insurance cost estimator for USA.
+              Contact the team behind PetSecure Insurance — a free pet insurance cost estimator for USA.
             </p>
           </footer>
         </div>

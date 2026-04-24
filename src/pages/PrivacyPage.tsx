@@ -17,7 +17,7 @@ export const PrivacyPage = () => {
           <div>
             <h2 className="text-xl font-serif font-bold text-text-main mb-4">No Data Collection</h2>
             <p className="text-sm text-text-muted leading-relaxed">
-              PetSecure AI does not collect, store, or sell any personally identifiable information (PII). We do not require names, emails, phone numbers, or addresses to use the estimator.
+              PetSecure Insurance does not collect, store, or sell any personally identifiable information (PII). We do not require names, emails, phone numbers, or addresses to use the estimator.
             </p>
           </div>
 
