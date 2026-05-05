@@ -111,6 +111,14 @@ export const BlogPage = () => {
             meta="8 min read · Updated March 2026"
             link="/blog-cat-insurance"
           />
+          <BlogCard 
+            emoji="🎾"
+            tag="Golden Health"
+            title="Complete Guide to Pet Insurance for Golden Retriever Owners 2026"
+            excerpt="60% of Goldens will face a cancer diagnosis. We explore the essential coverage needs, 2026 rate benchmarks, and why the 'Golden Window' for enrollment is so short."
+            meta="12 min read · Updated May 2026"
+            link="/blog-golden-retriever"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
