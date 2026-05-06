@@ -16,8 +16,13 @@ export const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-1.5 list-none items-center">
           <li><Link to="/" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Home</Link></li>
+          <li><Link to="/#estimator" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Estimator</Link></li>
+          <li><Link to="/blog.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Blog</Link></li>
+          <li><Link to="/texas.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Texas</Link></li>
+          <li><Link to="/california.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">California</Link></li>
+          <li><Link to="/florida.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Florida</Link></li>
+          <li><Link to="/new-york.html" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">New York</Link></li>
           <li><Link to="/about" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">About</Link></li>
-          <li><Link to="/contact" className="text-[13px] font-medium text-text-muted hover:bg-primary-pale hover:text-primary px-3 py-2 rounded-lg transition-all">Contact</Link></li>
         </ul>
 
         {/* Mobile Toggle */}
@@ -34,8 +39,13 @@ export const Navbar = () => {
         <div className="md:hidden absolute top-[66px] left-0 w-full bg-surface border-b border-border p-6 animate-in fade-in slide-in-from-top-4">
           <ul className="flex flex-col gap-4 list-none p-0 m-0">
             <li><Link to="/" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+            <li><Link to="/#estimator" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Estimator</Link></li>
+            <li><Link to="/blog.html" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Blog</Link></li>
+            <li><Link to="/texas.html" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Texas</Link></li>
+            <li><Link to="/california.html" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>California</Link></li>
+            <li><Link to="/florida.html" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Florida</Link></li>
+            <li><Link to="/new-york.html" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>New York</Link></li>
             <li><Link to="/about" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>About</Link></li>
-            <li><Link to="/contact" className="block text-base font-medium text-text-main" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
           </ul>
         </div>
       )}
@@ -72,7 +82,6 @@ export const Footer = () => (
         <div>
           <h4 className="text-white text-[11px] font-bold uppercase tracking-widest mb-6">Resources</h4>
           <ul className="space-y-3 list-none p-0">
-            <li><Link to="/blog.html" className="text-sm hover:text-white transition-colors">Pet Insurance Blog</Link></li>
             <li><Link to="/about" className="text-sm hover:text-white transition-colors">About Tool</Link></li>
             <li><Link to="/faq" className="text-sm hover:text-white transition-colors">FAQ</Link></li>
             <li><Link to="/privacy" className="text-sm hover:text-white transition-colors">Privacy Policy</Link></li>

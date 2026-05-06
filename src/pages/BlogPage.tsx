@@ -119,6 +119,14 @@ export const BlogPage = () => {
             meta="12 min read · Updated May 2026"
             link="/blog-golden-retriever"
           />
+          <BlogCard 
+            emoji="🦴"
+            tag="Risk Alert"
+            title="French Bulldog Pet Insurance 2026 — Why Accident-Only Plans Are a Costly Mistake"
+            excerpt="Frenchies are high-risk nodes for IVDD and BOAS. Learn why saving $20/month on an accident-only plan could leave you with a $10,000 surgical bill."
+            meta="10 min read · Updated May 2026"
+            link="/blog-french-bulldog"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
