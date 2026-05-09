@@ -66,8 +66,8 @@ export const BlogPage = () => {
           <BlogCard 
             emoji="💰"
             tag="Economic Analysis"
-            title="Is Pet Insurance Worth It in 2026? The Statistical Reality"
-            excerpt="We analyzed 1,500 real claims across 4 scenarios: a healthy Lab, a Frenchie with allergies, a senior feline, and a mixed puppy. Here's when the ROI actually stabilizes."
+            title="Is Pet Insurance Worth It in 2026? We Ran the Real Numbers for 4 Pets"
+            excerpt="We analyzed 1,500 real claims across 4 scenarios: a healthy mixed breed, a French Bulldog, a cancer-surviving Golden, and an older feline. Here is when the ROI actually holds up."
             meta="12 min read · Updated April 2026"
             link="/blog-worth-it"
           />
