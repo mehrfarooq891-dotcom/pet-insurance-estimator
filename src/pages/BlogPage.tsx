@@ -137,6 +137,14 @@ export const BlogPage = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <BlogCard 
+            emoji="📍"
+            tag="California Cost Guide"
+            title="How Much Does Pet Insurance Cost in California 2026? City by City Guide"
+            excerpt="California has the highest vet costs in the US. Read our comprehensive 2026 city-by-city price map across LA, SF, San Diego, Sacramento, and more."
+            meta="10 min read · Updated May 2026"
+            link="/blog-california-cost"
+          />
+          <BlogCard 
             emoji="🌉"
             tag="State Report"
             title="The Golden Coast Premium: 2026 California Index"
