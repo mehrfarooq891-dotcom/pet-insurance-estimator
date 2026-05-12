@@ -16,6 +16,7 @@ import { BlogCatInsurance } from './pages/blog/CatInsurance';
 import { BlogGoldenRetriever } from './pages/blog/GoldenRetriever';
 import { BlogFrenchBulldog } from './pages/blog/FrenchBulldog';
 import { BlogCaliforniaCosts } from './pages/blog/CaliforniaCosts';
+import { BlogTexasCosts } from './pages/blog/TexasCosts';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -44,6 +45,7 @@ export default function App() {
             <Route path="/blog-golden-retriever" element={<BlogGoldenRetriever />} />
             <Route path="/blog-french-bulldog" element={<BlogFrenchBulldog />} />
             <Route path="/blog-california-cost" element={<BlogCaliforniaCosts />} />
+            <Route path="/blog-texas-cost" element={<BlogTexasCosts />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

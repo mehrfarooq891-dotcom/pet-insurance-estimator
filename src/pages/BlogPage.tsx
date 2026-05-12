@@ -145,6 +145,14 @@ export const BlogPage = () => {
             link="/blog-california-cost"
           />
           <BlogCard 
+            emoji="🤠"
+            tag="Texas Cost Guide"
+            title="Pet Insurance in Texas 2026 — What Dallas, Houston and Austin Owners Actually Pay"
+            excerpt="Texas has a 65% pet ownership rate, but local veterinary costs are spiking. Compare actual 2026 rates for Dallas, Houston, Austin and rural areas."
+            meta="9 min read · Updated May 2026"
+            link="/blog-texas-cost"
+          />
+          <BlogCard 
             emoji="🌉"
             tag="State Report"
             title="The Golden Coast Premium: 2026 California Index"
