@@ -127,6 +127,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-french-bulldog"
           />
+          <BlogCard 
+            emoji="🐕‍🦺"
+            tag="Breed Analysis"
+            title="German Shepherd Pet Insurance 2026 — The Hip Dysplasia Coverage Question"
+            excerpt="19% of German Shepherds suffer from hip dysplasia, with surgeries costing up to $14,000. Discover the critical orthopedic coverage details you must ask before enrolling."
+            meta="11 min read · Updated May 2026"
+            link="/blog-german-shepherd"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
