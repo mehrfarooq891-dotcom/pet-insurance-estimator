@@ -81,10 +81,10 @@ export const BlogPage = () => {
           />
           <BlogCard 
             emoji="📅"
-            tag="Strategic Timing"
-            title="The Opt-in Window: Why Insuring Before Age 2 Is Critical"
-            excerpt="Every silent symptom documented in a vet chart is a permanent exclusion. We explore the 'Golden Window' of pet insurance and the high cost of waiting."
-            meta="7 min read · Updated February 2026"
+            tag="Guide & Tips"
+            title="The Best Age to Get Pet Insurance — And Why Waiting Is More Expensive Than You Think"
+            excerpt="The best time to insure your pet is today. Discover how pre-existing condition exclusions and age-based pricing curves make delaying one of the costliest financial decisions you can make."
+            meta="10 min read · Updated May 2026"
             link="/blog-best-age"
           />
           <BlogCard 
