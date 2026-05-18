@@ -135,6 +135,14 @@ export const BlogPage = () => {
             meta="11 min read · Updated May 2026"
             link="/blog-german-shepherd"
           />
+          <BlogCard 
+            emoji="🌭"
+            tag="Breed Analysis"
+            title="Dachshund Pet Insurance 2026 — IVDD Surgery and Why Every Wiener Dog Needs Coverage"
+            excerpt="One in four Dachshunds will face spinal surgery. Learn why IVDD coverage is non-negotiable and see 2026 cost benchmarks for your wobbly-walk protector."
+            meta="9 min read · Updated May 2026"
+            link="/blog-dachshund"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
