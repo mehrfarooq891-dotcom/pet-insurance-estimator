@@ -19,6 +19,7 @@ import { BlogCaliforniaCosts } from './pages/blog/CaliforniaCosts';
 import { BlogTexasCosts } from './pages/blog/TexasCosts';
 import { BlogGermanShepherd } from './pages/blog/GermanShepherd';
 import { BlogDachshund } from './pages/blog/Dachshund';
+import { BlogPreExisting } from './pages/blog/PreExisting';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -50,6 +51,7 @@ export default function App() {
             <Route path="/blog-texas-cost" element={<BlogTexasCosts />} />
             <Route path="/blog-german-shepherd" element={<BlogGermanShepherd />} />
             <Route path="/blog-dachshund" element={<BlogDachshund />} />
+            <Route path="/blog-pre-existing" element={<BlogPreExisting />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

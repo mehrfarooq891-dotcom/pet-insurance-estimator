@@ -143,6 +143,14 @@ export const BlogPage = () => {
             meta="9 min read · Updated May 2026"
             link="/blog-dachshund"
           />
+          <BlogCard 
+            emoji="🔍"
+            tag="Guide & Tips"
+            title="Pet Insurance Pre-Existing Conditions Explained — The Rule That Catches Every New Owner Off Guard"
+            excerpt="What actually counts as pre-existing? We demystify historical medical record audits, curable vs. incurable clauses, and how to protect your coverage."
+            meta="10 min read · Updated May 2026"
+            link="/blog-pre-existing"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
