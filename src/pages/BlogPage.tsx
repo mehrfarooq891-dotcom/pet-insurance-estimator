@@ -151,6 +151,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-pre-existing"
           />
+          <BlogCard 
+            emoji="📲"
+            tag="Guide & Tips"
+            title="How Pet Insurance Claims Work — Step-by-Step Guide for First-Time Claimants"
+            excerpt="Filing your first pet insurance claim? Discover how the reimbursement model works, required SOAP medical files, average timelines, and what to do if a claim is denied."
+            meta="9 min read · Updated May 2026"
+            link="/blog-claims-guide"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
