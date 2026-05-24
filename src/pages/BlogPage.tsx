@@ -159,6 +159,14 @@ export const BlogPage = () => {
             meta="9 min read · Updated May 2026"
             link="/blog-claims-guide"
           />
+          <BlogCard 
+            emoji="🧬"
+            tag="Breed Analysis"
+            title="Mixed Breed Dog Insurance Cost 2026 — Why Mutts Are the Cheapest to Insure"
+            excerpt="Your mixed-breed dog represents the absolute best of genetic diversity. Learn how 'hybrid vigor' keeps mutt insurance costs low and why early coverage is still a lifesaver."
+            meta="10 min read · Updated May 2026"
+            link="/blog-mixed-breed"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
