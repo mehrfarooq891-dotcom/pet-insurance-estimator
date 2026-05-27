@@ -167,6 +167,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-mixed-breed"
           />
+          <BlogCard 
+            emoji="📊"
+            tag="Guide & Tips"
+            title="Pet Insurance Deductibles Explained — Annual vs Per Incident (Which Saves You More?)"
+            excerpt="Annual vs per-incident: your choice of deductible shapes both your monthly premiums and sudden emergency veterinary bills. Discover which model wins based on real-world calculations."
+            meta="10 min read · Updated May 2026"
+            link="/blog-deductibles"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">

@@ -22,6 +22,7 @@ import { BlogDachshund } from './pages/blog/Dachshund';
 import { BlogPreExisting } from './pages/blog/PreExisting';
 import { BlogClaimsGuide } from './pages/blog/ClaimsGuide';
 import { BlogMixedBreed } from './pages/blog/MixedBreed';
+import { BlogDeductibles } from './pages/blog/Deductibles';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -56,6 +57,7 @@ export default function App() {
             <Route path="/blog-pre-existing" element={<BlogPreExisting />} />
             <Route path="/blog-claims-guide" element={<BlogClaimsGuide />} />
             <Route path="/blog-mixed-breed" element={<BlogMixedBreed />} />
+            <Route path="/blog-deductibles" element={<BlogDeductibles />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
