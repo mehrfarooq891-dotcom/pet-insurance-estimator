@@ -175,6 +175,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-deductibles"
           />
+          <BlogCard 
+            emoji="🐕"
+            tag="Breed Analysis"
+            title="Labrador Retriever Pet Insurance Cost 2026 — America's Most Popular Dog"
+            excerpt="With bottomless stomachs and massive spirits, Labradors are beloved family members. Discover their specific health risks, cost benchmarks, and why rapid accident + illness coverage is a lifesaver."
+            meta="10 min read · Updated May 2026"
+            link="/blog-labrador"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
