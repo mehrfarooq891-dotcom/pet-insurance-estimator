@@ -183,6 +183,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-labrador"
           />
+          <BlogCard 
+            emoji="👵"
+            tag="Guide & Tips"
+            title="Senior Pet Insurance — Should You Insure a Dog or Cat Over Age 8?"
+            excerpt="Insuring an older companion is a complicated financial query. Discover the hard truths of rising premium curves, medical history exclusions, and when a savings hybrid wins."
+            meta="10 min read · Updated May 2026"
+            link="/blog-senior-pet"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">

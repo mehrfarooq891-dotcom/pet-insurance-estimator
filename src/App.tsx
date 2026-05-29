@@ -24,6 +24,7 @@ import { BlogClaimsGuide } from './pages/blog/ClaimsGuide';
 import { BlogMixedBreed } from './pages/blog/MixedBreed';
 import { BlogDeductibles } from './pages/blog/Deductibles';
 import { BlogLabrador } from './pages/blog/Labrador';
+import { BlogSeniorPet } from './pages/blog/SeniorPet';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -60,6 +61,7 @@ export default function App() {
             <Route path="/blog-mixed-breed" element={<BlogMixedBreed />} />
             <Route path="/blog-deductibles" element={<BlogDeductibles />} />
             <Route path="/blog-labrador" element={<BlogLabrador />} />
+            <Route path="/blog-senior-pet" element={<BlogSeniorPet />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
