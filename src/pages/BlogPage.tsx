@@ -201,6 +201,14 @@ export const BlogPage = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <BlogCard 
+            emoji="🍎"
+            tag="New York Cost Guide"
+            title="Pet Insurance in New York 2026 — What NYC, Long Island and Upstate Owners Pay"
+            excerpt="New York pet parents face the steepest veterinary rates and premiums in the US. Discover actual 2026 rates across NYC, Long Island, and Upstate."
+            meta="11 min read · Updated May 2026"
+            link="/blog-new-york-cost"
+          />
+          <BlogCard 
             emoji="📍"
             tag="California Cost Guide"
             title="How Much Does Pet Insurance Cost in California 2026? City by City Guide"
