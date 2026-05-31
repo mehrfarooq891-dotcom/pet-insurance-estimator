@@ -191,6 +191,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-senior-pet"
           />
+          <BlogCard 
+            emoji="🍋"
+            tag="Product Review"
+            title="Lemonade Pet Insurance Review 2026 — Fast Claims, But Is It Right for Your Pet?"
+            excerpt="Lemonade completely changed the pet insurance space with artificial intelligence and rapid digital claims. We investigate what works, what falls short, and whether it fits your budget."
+            meta="10 min read · Updated May 2026"
+            link="/blog-lemonade-review"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">
