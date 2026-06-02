@@ -199,6 +199,14 @@ export const BlogPage = () => {
             meta="10 min read · Updated May 2026"
             link="/blog-lemonade-review"
           />
+          <BlogCard 
+            emoji="❤️"
+            tag="Breed Analysis"
+            title="Cavalier King Charles Spaniel Insurance — The Heart Disease Every Owner Will Face"
+            excerpt="Virtually all Cavaliers develop Mitral Valve Disease (MVD) by age 10. Learn why early enrollment is vital to keep your companion fully covered."
+            meta="10 min read · Updated June 2026"
+            link="/blog-cavalier"
+          />
         </div>
 
         <div className="flex items-center justify-between mt-24 mb-12 border-b border-border pb-6">

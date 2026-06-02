@@ -27,6 +27,7 @@ import { BlogLabrador } from './pages/blog/Labrador';
 import { BlogSeniorPet } from './pages/blog/SeniorPet';
 import { BlogNewYorkCosts } from './pages/blog/NewYorkCosts';
 import { BlogLemonadeReview } from './pages/blog/LemonadeReview';
+import { BlogCavalier } from './pages/blog/Cavalier';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -66,6 +67,7 @@ export default function App() {
             <Route path="/blog-senior-pet" element={<BlogSeniorPet />} />
             <Route path="/blog-new-york-cost" element={<BlogNewYorkCosts />} />
             <Route path="/blog-lemonade-review" element={<BlogLemonadeReview />} />
+            <Route path="/blog-cavalier" element={<BlogCavalier />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
