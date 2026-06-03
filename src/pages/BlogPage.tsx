@@ -72,6 +72,14 @@ export const BlogPage = () => {
             link="/blog-worth-it"
           />
           <BlogCard 
+            emoji="🔢"
+            tag="Cost Analysis"
+            title="How Much Does Pet Insurance Cost? A Complete 2025 Guide"
+            excerpt="Wondering what you'll pay to protect your pet? We break down the real numbers, average premiums, customizable plan sliders, and cost-saving tips."
+            meta="11 min read · Updated June 2026"
+            link="/blog-how-much-costs"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
