@@ -29,6 +29,7 @@ import { BlogNewYorkCosts } from './pages/blog/NewYorkCosts';
 import { BlogLemonadeReview } from './pages/blog/LemonadeReview';
 import { BlogCavalier } from './pages/blog/Cavalier';
 import { BlogHowMuchCosts } from './pages/blog/HowMuchCosts';
+import { BlogCalculatorsGuide } from './pages/blog/InsuranceCalculatorGuide';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -70,6 +71,7 @@ export default function App() {
              <Route path="/blog-lemonade-review" element={<BlogLemonadeReview />} />
             <Route path="/blog-cavalier" element={<BlogCavalier />} />
             <Route path="/blog-how-much-costs" element={<BlogHowMuchCosts />} />
+            <Route path="/blog-calculator-guide" element={<BlogCalculatorsGuide />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

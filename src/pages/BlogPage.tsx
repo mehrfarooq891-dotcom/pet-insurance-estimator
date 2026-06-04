@@ -80,6 +80,14 @@ export const BlogPage = () => {
             link="/blog-how-much-costs"
           />
           <BlogCard 
+            emoji="🧮"
+            tag="Premium Calculator"
+            title="Pet Insurance Calculator: How to Estimate Your Monthly Premium"
+            excerpt="Gathering a reliable plan estimate shouldn't be guesswork. Learn how online premium adjustment systems compute rates and how to customize sliders for maximum savings."
+            meta="11 min read · Updated June 2026"
+            link="/blog-calculator-guide"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
