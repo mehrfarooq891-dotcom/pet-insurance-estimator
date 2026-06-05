@@ -30,6 +30,7 @@ import { BlogLemonadeReview } from './pages/blog/LemonadeReview';
 import { BlogCavalier } from './pages/blog/Cavalier';
 import { BlogHowMuchCosts } from './pages/blog/HowMuchCosts';
 import { BlogCalculatorsGuide } from './pages/blog/InsuranceCalculatorGuide';
+import { BlogDogInsuranceFactor } from './pages/blog/DogInsuranceFactor';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -72,6 +73,7 @@ export default function App() {
             <Route path="/blog-cavalier" element={<BlogCavalier />} />
             <Route path="/blog-how-much-costs" element={<BlogHowMuchCosts />} />
             <Route path="/blog-calculator-guide" element={<BlogCalculatorsGuide />} />
+            <Route path="/blog-dog-insurance-factor" element={<BlogDogInsuranceFactor />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

@@ -88,6 +88,14 @@ export const BlogPage = () => {
             link="/blog-calculator-guide"
           />
           <BlogCard 
+            emoji="🏷️"
+            tag="Quote Analysis"
+            title="Dog Insurance Estimate: What Factors Affect Your Quote"
+            excerpt="Curious about what determines your dog's coverage rate? Break down how specific breeds, ZIP codes, and age curves drive insurance pricing."
+            meta="11 min read · Updated June 2026"
+            link="/blog-dog-insurance-factor"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
