@@ -96,6 +96,14 @@ export const BlogPage = () => {
             link="/blog-dog-insurance-factor"
           />
           <BlogCard 
+            emoji="⚖️"
+            tag="Cost vs Benefit"
+            title="Is Pet Insurance Worth It? Cost vs Benefits Breakdown"
+            excerpt="Faced with rising veterinary prices and changing premiums, pet parents need a clear financial roadmap. We unpack the math to help you decide."
+            meta="11 min read · Updated June 2026"
+            link="/blog-worth-it-breakdown"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
