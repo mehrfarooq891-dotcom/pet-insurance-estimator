@@ -104,6 +104,14 @@ export const BlogPage = () => {
             link="/blog-worth-it-breakdown"
           />
           <BlogCard 
+            emoji="🐱"
+            tag="Cost Comparison"
+            title="Cat vs Dog Insurance: Which Costs More and Why"
+            excerpt="Comparing feline vs. canine coverage? Dive deep into the biological risk profiles, veterinary diagnostics, and regional variables that dictate pricing."
+            meta="11 min read · Updated June 2026"
+            link="/blog-cat-vs-dog-comparison"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
