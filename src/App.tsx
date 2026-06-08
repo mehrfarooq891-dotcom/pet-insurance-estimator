@@ -33,6 +33,7 @@ import { BlogCalculatorsGuide } from './pages/blog/InsuranceCalculatorGuide';
 import { BlogDogInsuranceFactor } from './pages/blog/DogInsuranceFactor';
 import { BlogWorthItSEO } from './pages/blog/WorthItSEO';
 import { BlogCatVsDogSEO } from './pages/blog/CatVsDogSEO';
+import { BlogPuppyInsuranceSEO } from './pages/blog/PuppyInsuranceSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -78,6 +79,7 @@ export default function App() {
             <Route path="/blog-dog-insurance-factor" element={<BlogDogInsuranceFactor />} />
             <Route path="/blog-worth-it-breakdown" element={<BlogWorthItSEO />} />
             <Route path="/blog-cat-vs-dog-comparison" element={<BlogCatVsDogSEO />} />
+            <Route path="/blog-puppy-insurance" element={<BlogPuppyInsuranceSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

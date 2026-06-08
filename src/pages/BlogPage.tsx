@@ -112,6 +112,14 @@ export const BlogPage = () => {
             link="/blog-cat-vs-dog-comparison"
           />
           <BlogCard 
+            emoji="🦴"
+            tag="Puppy Guide"
+            title="Pet Insurance for Puppies: When to Buy and What It Costs"
+            excerpt="Welcoming a new puppy? Uncover the life-saving benefits of early enrollment, young canine risk dynamics, and tips for finding affordable rates."
+            meta="11 min read · Updated June 2026"
+            link="/blog-puppy-insurance"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
