@@ -120,6 +120,14 @@ export const BlogPage = () => {
             link="/blog-puppy-insurance"
           />
           <BlogCard 
+            emoji="📉"
+            tag="Cost Strategies"
+            title="How to Lower Your Pet Insurance Premium Without Losing Coverage"
+            excerpt="Tired of growing veterinary premium bills? Learn how to strategically adjust plan sliders, review enrollment ages, and optimize coverage without sacrificing safety."
+            meta="11 min read · Updated June 2026"
+            link="/blog-lower-premiums"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
