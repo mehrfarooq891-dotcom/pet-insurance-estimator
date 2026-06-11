@@ -128,6 +128,14 @@ export const BlogPage = () => {
             link="/blog-lower-premiums"
           />
           <BlogCard 
+            emoji="🧩"
+            tag="Guide & Tips"
+            title="Pet Insurance Deductibles Explained: What You Need to Know"
+            excerpt="Demystify how deductible options influence your direct bills and out-of-pocket veterinary limits. We translate the fine print into simple, actionable calculations."
+            meta="11 min read · Updated June 2026"
+            link="/blog-deductibles-guide"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
