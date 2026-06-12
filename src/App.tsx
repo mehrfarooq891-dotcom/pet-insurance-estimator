@@ -36,6 +36,7 @@ import { BlogCatVsDogSEO } from './pages/blog/CatVsDogSEO';
 import { BlogPuppyInsuranceSEO } from './pages/blog/PuppyInsuranceSEO';
 import { BlogLowerPremiumSEO } from './pages/blog/LowerPremiumSEO';
 import { BlogDeductiblesSEO } from './pages/blog/DeductiblesSEO';
+import { BlogBestSeniorDogSEO } from './pages/blog/BestSeniorDogSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -84,6 +85,7 @@ export default function App() {
             <Route path="/blog-puppy-insurance" element={<BlogPuppyInsuranceSEO />} />
             <Route path="/blog-lower-premiums" element={<BlogLowerPremiumSEO />} />
             <Route path="/blog-deductibles-guide" element={<BlogDeductiblesSEO />} />
+            <Route path="/blog-best-senior-dog" element={<BlogBestSeniorDogSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />

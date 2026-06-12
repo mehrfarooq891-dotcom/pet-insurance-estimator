@@ -136,6 +136,14 @@ export const BlogPage = () => {
             link="/blog-deductibles-guide"
           />
           <BlogCard 
+            emoji="👵"
+            tag="Senior Care"
+            title="Best Pet Insurance for Senior Dogs: Cost Estimates and Tips"
+            excerpt="Protect your loyal older dog with strategic coverage comparisons, customizable deductibles, and tailored estimators for their golden years."
+            meta="11 min read · Updated June 2026"
+            link="/blog-best-senior-dog"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
