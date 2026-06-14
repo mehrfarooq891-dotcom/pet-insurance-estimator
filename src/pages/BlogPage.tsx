@@ -144,6 +144,14 @@ export const BlogPage = () => {
             link="/blog-best-senior-dog"
           />
           <BlogCard 
+            emoji="⏳"
+            tag="Policy Guide"
+            title="Pet Insurance Waiting Periods: What Every Owner Should Know"
+            excerpt="Learn how waiting periods work, the standard timelines for accidents, illnesses, and joint conditions, and how to protect your pet safely."
+            meta="10 min read · Updated June 2026"
+            link="/blog-waiting-periods"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
