@@ -152,6 +152,14 @@ export const BlogPage = () => {
             link="/blog-waiting-periods"
           />
           <BlogCard 
+            emoji="🩺"
+            tag="Policy Guide"
+            title="Does Pet Insurance Cover Pre-Existing Conditions?"
+            excerpt="Uncover how pre-existing conditions are evaluated, understand the difference between curable and chronic diseases, and learn how to secure custom estimates masterfully."
+            meta="11 min read · Updated June 2026"
+            link="/blog-pre-existing-conditions-guide"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
