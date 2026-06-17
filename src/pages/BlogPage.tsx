@@ -160,6 +160,14 @@ export const BlogPage = () => {
             link="/blog-pre-existing-conditions-guide"
           />
           <BlogCard 
+            emoji="💳"
+            tag="Financial Planning"
+            title="Annual vs Monthly Pet Insurance: Which Plan Saves More Money"
+            excerpt="Compare billing cycles, fee surcharges, and annual-pay discount multipliers to optimize your veterinary coverage billing operations cleanly."
+            meta="12 min read · Updated June 2026"
+            link="/blog-annual-vs-monthly"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
