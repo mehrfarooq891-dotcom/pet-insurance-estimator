@@ -168,6 +168,14 @@ export const BlogPage = () => {
             link="/blog-annual-vs-monthly"
           />
           <BlogCard 
+            emoji="🐾"
+            tag="Multi-Pet Care"
+            title="Pet Insurance for Multiple Pets: Bundle Costs and Savings"
+            excerpt="Learn how multi-pet insurance bundles work, how discount structures accumulate, and how to custom build coverage matrices for a multi-animal home."
+            meta="11 min read · Updated June 2026"
+            link="/blog-multi-pet"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
