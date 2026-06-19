@@ -41,6 +41,7 @@ import { BlogWaitingPeriodsSEO } from './pages/blog/WaitingPeriodsSEO';
 import { BlogPreExistingConditionsSEO } from './pages/blog/PreExistingConditionsSEO';
 import { BlogAnnualVsMonthlySEO } from './pages/blog/AnnualVsMonthlySEO';
 import { BlogMultiPetSEO } from './pages/blog/MultiPetSEO';
+import { BlogEmergencyVetBillsSEO } from './pages/blog/EmergencyVetBillsSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -94,6 +95,7 @@ export default function App() {
             <Route path="/blog-pre-existing-conditions-guide" element={<BlogPreExistingConditionsSEO />} />
             <Route path="/blog-annual-vs-monthly" element={<BlogAnnualVsMonthlySEO />} />
             <Route path="/blog-multi-pet" element={<BlogMultiPetSEO />} />
+            <Route path="/blog-emergency-vet-bills" element={<BlogEmergencyVetBillsSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
