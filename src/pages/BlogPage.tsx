@@ -184,6 +184,14 @@ export const BlogPage = () => {
             link="/blog-emergency-vet-bills"
           />
           <BlogCard 
+            emoji="💬"
+            tag="Content & Strategy"
+            title="30 Blog Post Prompts for Pet Insurance: The Ultimate Guide"
+            excerpt="Discover the top 30 research queries, questions, and templates to master your policy options, leverage smart calculators, and compare rates like a pro."
+            meta="12 min read · Updated June 2026"
+            link="/blog-prompts"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
