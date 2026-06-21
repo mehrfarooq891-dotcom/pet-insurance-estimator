@@ -192,6 +192,14 @@ export const BlogPage = () => {
             link="/blog-prompts"
           />
           <BlogCard 
+            emoji="⏱️"
+            tag="Buyers Guide"
+            title="How to Get a Pet Insurance Estimate in 5 Minutes: Step-by-Step Guide"
+            excerpt="Uncover the fastest route to generating an accurate, personalized rate estimate. Learn the key inputs and comparisons that save hundreds annually."
+            meta="11 min read · Updated June 2026"
+            link="/blog-get-estimate-5-minutes"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
