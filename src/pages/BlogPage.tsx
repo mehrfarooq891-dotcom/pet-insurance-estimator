@@ -200,6 +200,14 @@ export const BlogPage = () => {
             link="/blog-get-estimate-5-minutes"
           />
           <BlogCard 
+            emoji="📊"
+            tag="Breed Analytics"
+            title="Dog Insurance Estimate by Breed: Which Dogs Cost the Most to Insure?"
+            excerpt="Your dog's breed is the single biggest factor in your coverage pricing. Compare monthly estimates for popular breeds and see how risk influences lifetime premiums."
+            meta="12 min read · Updated June 2026"
+            link="/blog-dog-insurance-estimate-by-breed"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"

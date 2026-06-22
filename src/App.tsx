@@ -44,6 +44,7 @@ import { BlogMultiPetSEO } from './pages/blog/MultiPetSEO';
 import { BlogEmergencyVetBillsSEO } from './pages/blog/EmergencyVetBillsSEO';
 import { BlogPromptsSEO } from './pages/blog/PromptsSEO';
 import { BlogGetEstimateFiveMinutesSEO } from './pages/blog/GetEstimateFiveMinutesSEO';
+import { BlogDogInsuranceEstimateByBreedSEO } from './pages/blog/DogInsuranceEstimateByBreedSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -100,6 +101,7 @@ export default function App() {
             <Route path="/blog-emergency-vet-bills" element={<BlogEmergencyVetBillsSEO />} />
             <Route path="/blog-prompts" element={<BlogPromptsSEO />} />
             <Route path="/blog-get-estimate-5-minutes" element={<BlogGetEstimateFiveMinutesSEO />} />
+            <Route path="/blog-dog-insurance-estimate-by-breed" element={<BlogDogInsuranceEstimateByBreedSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
