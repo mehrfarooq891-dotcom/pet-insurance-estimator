@@ -216,6 +216,14 @@ export const BlogPage = () => {
             link="/blog-cost-by-state"
           />
           <BlogCard 
+            emoji="🧮"
+            tag="Buyers Guide"
+            title="Dog Insurance Quote Calculator: How It Works and What It Tells You"
+            excerpt="An online quote tool does more than display a single premium figure. Explore how algorithms process breed, age, and ZIP codes to design your perfect custom budget."
+            meta="11 min read · Updated June 2026"
+            link="/blog-dog-insurance-quote-calculator"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
