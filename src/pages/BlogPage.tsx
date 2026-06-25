@@ -224,6 +224,14 @@ export const BlogPage = () => {
             link="/blog-dog-insurance-quote-calculator"
           />
           <BlogCard 
+            emoji="💵"
+            tag="Buyers Guide"
+            title="Pet Insurance Monthly Cost: What's a Fair Price in 2026?"
+            excerpt="Determine the national average price points for comprehensive pet insurance. Evaluate how deductibles, breed types, and regions shape your fair price."
+            meta="11 min read · Updated June 2026"
+            link="/blog-monthly-cost-2026"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
