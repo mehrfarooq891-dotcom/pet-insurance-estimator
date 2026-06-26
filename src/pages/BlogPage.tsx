@@ -232,6 +232,14 @@ export const BlogPage = () => {
             link="/blog-monthly-cost-2026"
           />
           <BlogCard 
+            emoji="🎯"
+            tag="Buyers Guide"
+            title="How Accurate Are Pet Insurance Calculators? What You Need to Know"
+            excerpt="Are online pet insurance calculators actually accurate? Learn what algorithms correctly predict, what they can't account for, and how to shop smartly."
+            meta="11 min read · Updated June 2026"
+            link="/blog-calculator-accuracy"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"

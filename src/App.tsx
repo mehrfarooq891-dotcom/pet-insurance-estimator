@@ -48,6 +48,7 @@ import { BlogDogInsuranceEstimateByBreedSEO } from './pages/blog/DogInsuranceEst
 import { BlogCostByStateSEO } from './pages/blog/CostByStateSEO';
 import { BlogDogInsuranceQuoteCalculatorSEO } from './pages/blog/DogInsuranceQuoteCalculatorSEO';
 import { BlogMonthlyCostSEO } from './pages/blog/MonthlyCostSEO';
+import { BlogCalculatorAccuracySEO } from './pages/blog/CalculatorAccuracySEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -108,6 +109,7 @@ export default function App() {
             <Route path="/blog-cost-by-state" element={<BlogCostByStateSEO />} />
             <Route path="/blog-dog-insurance-quote-calculator" element={<BlogDogInsuranceQuoteCalculatorSEO />} />
             <Route path="/blog-monthly-cost-2026" element={<BlogMonthlyCostSEO />} />
+            <Route path="/blog-calculator-accuracy" element={<BlogCalculatorAccuracySEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
