@@ -240,6 +240,14 @@ export const BlogPage = () => {
             link="/blog-calculator-accuracy"
           />
           <BlogCard 
+            emoji="🐱"
+            tag="Cat Coverage"
+            title="Pet Insurance Estimate for Cats — How Much Should You Expect to Pay?"
+            excerpt="Feline healthcare is highly affordable compared to dogs, but accidents still strike. Review average monthly costs, breed genetics, and age tiers for cats."
+            meta="10 min read · Updated June 2026"
+            link="/blog-cat-insurance-estimate"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
