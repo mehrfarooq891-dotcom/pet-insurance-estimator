@@ -248,6 +248,14 @@ export const BlogPage = () => {
             link="/blog-cat-insurance-estimate"
           />
           <BlogCard 
+            emoji="🐾"
+            tag="Multi-Pet Care"
+            title="Pet Insurance Calculator for Multiple Pets — How Bundle Pricing Works"
+            excerpt="If you have more than one pet, a consolidated policy can unlock generous bundle discounts of 5% to 10% off. Learn how to compare options and optimize your family plan."
+            meta="11 min read · Updated June 2026"
+            link="/blog-multi-pet-calculator"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"

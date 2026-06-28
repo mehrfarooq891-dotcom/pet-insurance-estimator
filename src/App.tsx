@@ -50,6 +50,7 @@ import { BlogDogInsuranceQuoteCalculatorSEO } from './pages/blog/DogInsuranceQuo
 import { BlogMonthlyCostSEO } from './pages/blog/MonthlyCostSEO';
 import { BlogCalculatorAccuracySEO } from './pages/blog/CalculatorAccuracySEO';
 import { BlogCatEstimateSEO } from './pages/blog/CatEstimateSEO';
+import { BlogMultiPetCalculatorSEO } from './pages/blog/MultiPetCalculatorSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -112,6 +113,7 @@ export default function App() {
             <Route path="/blog-monthly-cost-2026" element={<BlogMonthlyCostSEO />} />
             <Route path="/blog-calculator-accuracy" element={<BlogCalculatorAccuracySEO />} />
             <Route path="/blog-cat-insurance-estimate" element={<BlogCatEstimateSEO />} />
+            <Route path="/blog-multi-pet-calculator" element={<BlogMultiPetCalculatorSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
