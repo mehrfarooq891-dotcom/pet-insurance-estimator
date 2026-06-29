@@ -258,6 +258,14 @@ export const BlogPage = () => {
           <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
+            title="Rottweiler Pet Insurance: Joint Disease, Cancer, and What Owners Must Know"
+            excerpt="Examine the unique genetic liabilities affecting Rottweilers, analyze 2026 premium brackets, and learn how to secure high-quality cancer and orthopedic protection."
+            meta="10 min read · Updated June 2026"
+            link="/blog-rottweiler-insurance"
+          />
+          <BlogCard 
+            emoji="🐕"
+            tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
             excerpt="French Bulldogs, Great Danes, and Bernese Mountain Dogs are seeing record premium hikes in 2026. Discover the underlying actuarial risks driving these numbers."
             meta="9 min read · Updated March 2026"
