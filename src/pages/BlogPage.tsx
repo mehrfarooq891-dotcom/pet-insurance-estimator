@@ -264,6 +264,14 @@ export const BlogPage = () => {
             link="/blog-rottweiler-insurance"
           />
           <BlogCard 
+            emoji="🐩"
+            tag="Breed Analytics"
+            title="Poodle Pet Insurance 2026 — Why Standard, Miniature and Toy Poodles Have Different Costs"
+            excerpt="Standard, Miniature, and Toy Poodles have distinct risk curves and genetic health liabilities. Learn how breed size changes your monthly estimates dramatically."
+            meta="11 min read · Updated July 2026"
+            link="/blog-poodle-insurance"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
