@@ -272,6 +272,14 @@ export const BlogPage = () => {
             link="/blog-poodle-insurance"
           />
           <BlogCard 
+            emoji="🏔️"
+            tag="Breed Analytics"
+            title="Bernese Mountain Dog Pet Insurance: Short Lifespan, High Costs, and Essential Coverage"
+            excerpt="Bernese Mountain Dogs carry some of the most challenging genetic risks, especially cancer and joint dysplasia. Discover why early insurance is vital to protect your gentle giant."
+            meta="11 min read · Updated July 2026"
+            link="/blog-bernese-mountain-dog-insurance"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"
