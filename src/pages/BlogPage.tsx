@@ -280,6 +280,14 @@ export const BlogPage = () => {
             link="/blog-bernese-mountain-dog-insurance"
           />
           <BlogCard 
+            emoji="🐺"
+            tag="Breed Analytics"
+            title="Husky Pet Insurance 2026 — Eye Conditions, Hip Dysplasia, and Arctic Breed Costs"
+            excerpt="Siberian Huskies and Alaskan Malamutes face unique genetic health concerns like PRA, hypothyroidism, and joint dysplasia. Learn how to optimize your coverage plan."
+            meta="11 min read · Updated July 2026"
+            link="/blog-husky-malamute-insurance"
+          />
+          <BlogCard 
             emoji="🐕"
             tag="Breed Analytics"
             title="The High-Risk Register: Top 10 Breeds by Insurance Premium"

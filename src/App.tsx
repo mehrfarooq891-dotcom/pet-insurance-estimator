@@ -54,6 +54,7 @@ import { BlogMultiPetCalculatorSEO } from './pages/blog/MultiPetCalculatorSEO';
 import { BlogRottweilerInsuranceSEO } from './pages/blog/RottweilerInsuranceSEO';
 import { BlogPoodleInsuranceSEO } from './pages/blog/PoodleInsuranceSEO';
 import { BlogBerneseMountainDogInsuranceSEO } from './pages/blog/BerneseMountainDogInsuranceSEO';
+import { BlogHuskyMalamuteInsuranceSEO } from './pages/blog/HuskyMalamuteInsuranceSEO';
 import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
@@ -120,6 +121,7 @@ export default function App() {
             <Route path="/blog-rottweiler-insurance" element={<BlogRottweilerInsuranceSEO />} />
             <Route path="/blog-poodle-insurance" element={<BlogPoodleInsuranceSEO />} />
             <Route path="/blog-bernese-mountain-dog-insurance" element={<BlogBerneseMountainDogInsuranceSEO />} />
+            <Route path="/blog-husky-malamute-insurance" element={<BlogHuskyMalamuteInsuranceSEO />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contact" element={<ContactPage />} />
