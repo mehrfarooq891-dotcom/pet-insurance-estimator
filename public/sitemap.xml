@@ -31,47 +31,47 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-worth-it</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-worth-it.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-vet-costs</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-vet-costs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-expensive-breeds</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-expensive-breeds.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-best-age</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-best-age.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-lemonade-vs-spot</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-lemonade-vs-spot.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/blog-cat-insurance</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/blog-cat-insurance.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/about</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/faq</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://pet-insurance-estimator.vercel.app/privacy</loc>
+    <loc>https://pet-insurance-estimator.vercel.app/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
